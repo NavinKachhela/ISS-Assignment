@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Forms</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="container">
+            <form name="RegForm" onsubmit="return validateForm()" method="post">
+                <fieldset>
+                    <legend>
+                        Registration
+                    </legend>
+                    <label for="form-name">Your Name</label>
+                    <input type="text" name="Name" id="form-name">
+                    
+                    <label for="form-email">Your Email</label>
+                    <input type="email" name="Email" id="form-email">
+                    
+                    <label for="form-pass">Password</label>
+                    <input type="text"name="Password"  id="form-pass">
+
+                    <label for="form-number">Your Number</label>
+                    <input type="tel" name="Telephone" id="form-number">
+                    
+                    
+                    <label for="form-address">Address</label>
+                    <textarea id="form-address" name="Address" cols="30" rows="5"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

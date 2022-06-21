@@ -1,0 +1,82 @@
+/*StyleSheet.css*/
+
+*{
+/*    this is used to select all the elements*/
+    padding: 0;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+/*CSS For Forms.html*/
+#container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+fieldset{
+    padding: 40px;
+    border: solid 1px #AAA;
+    
+}
+
+fieldset legend{
+    background: #FFF;
+    border: solid 1px #AAA;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 1.25%;
+    width: 47.5%;
+    border: solid 1px #454545;
+    font-family: Monaco, monospace;
+    font-size: 14px;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    border-top: none;
+    outline-color: red;
+}
+
+textarea{
+    resize: none;
+}
+
+label{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Monaco, monospace;
+    background: url('images/red_background.jpg');
+    width: 47.5%;
+    display: block;
+    padding: 1.25%;
+    border: solid 1px #454545;
+    color: white;
+    border-bottom: none;
+}
+
+input[type="submit"]
+{
+    background: none;
+    background: url('images/button_background.jpg');
+    height: 40px;
+    padding: 0 40px;
+    border: solid 1px #777;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    cursor: pointer;
+    border-color: #454545;
+    outline: none;
+}
+
